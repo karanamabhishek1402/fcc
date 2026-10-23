@@ -7,14 +7,14 @@ A Claude Code skill that installs, configures, runs and troubleshoots
 
 macOS / Linux / WSL:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/karanamabhishek1402/free-claude-code-skill/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/karanamabhishek1402/fcc/main/install.sh | sh
 ```
 
 Windows PowerShell:
 ```powershell
-$d="$HOME\.claude\skills\free-claude-code"; mkdir $d -Force | Out-Null; irm https://raw.githubusercontent.com/karanamabhishek1402/free-claude-code-skill/main/skills/free-claude-code/SKILL.md -OutFile "$d\SKILL.md"
+$d="$HOME\.claude\skills\free-claude-code"; mkdir $d -Force | Out-Null; irm https://raw.githubusercontent.com/karanamabhishek1402/fcc/main/skills/free-claude-code/SKILL.md -OutFile "$d\SKILL.md"
 ```
 
-Or with the skills CLI: `npx skills add karanamabhishek1402/free-claude-code-skill`
+Or with the skills CLI: `npx skills add karanamabhishek1402/fcc`
 
 Then restart Claude Code and say "set up free claude code" (or `/free-claude-code`).
